@@ -14,7 +14,7 @@
 
 먼저 다음과 같은 테이블을 생성해야 한다.
  
-    	//게시판 메인 글을 저장한 테이블 스키마
+    //게시판 메인 글을 저장한 테이블 스키마
 	CREATE TABLE "BOARDC" (
 		"NUM" NUMBER(7,0) NOT NULL ENABLE,
 		"WRITER" VARCHAR2(12) NOT NULL ENABLE,
